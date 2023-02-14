@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  background: rgb(209, 209, 209);
+}
+
+h1 {
+  font-size: 46px;
+  color: rgb(57, 71, 83);
+  margin-bottom: 0px;
+}
+
+/* Botoões */
+
+#buttons-container button {
+  border: none;
+  padding: 15px 15px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  margin: 25px 15px;
+}
+
+#players {
+  background: rgb(39, 216, 68);
+  transition: 0.3s;
+}
+
+#players:hover {
+  background-image: url("img/icons8-players-64.png");
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+#ai-player {
+  background: red;
+  transition: 0.3s;
+}
+
+#ai-player:hover {
+  background-image: url("img/IA.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+/* Campo do jogo da velha */
+#container {
+  display: flex;
+  width: 300px;
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.box {
+  height: 100px;
+  border: 5px solid black;
+  box-sizing: border-box;
+  flex: 1 1 33%;
+}

@@ -106,6 +106,7 @@ h1 {
   border: 5px solid rgb(39, 216, 68);
   border-radius: 50%;
   display: inline-block;
+  margin-top: 18px;
 }
 
 /* Classe de esconder */
